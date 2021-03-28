@@ -1,3 +1,5 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by javascript";
-document.querySelector("body").appendChild(h2);
+function aboutMe() {
+        let temp = prompt("What temperature is it?");
+        let city = prompt("What city do you live in?");
+let changeCity = document.getElementsByClassName("1");
+changeCity.addEventListener("click", aboutMe);

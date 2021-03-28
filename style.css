@@ -1,3 +1,40 @@
 body {
-  background: blue;
+  background: rgb(241, 223, 210);
+}
+
+ul {
+  padding-inline-start: 0;
+  list-style: none;
+  text-align: center;
+}
+li {
+  display: inline;
+  margin: 15px;
+}
+button {
+  border: 1px solid #bd8353;
+  background: #bd8353;
+  color: #fff;
+  font-size: 14px;
+  line-height: 22px;
+  padding: 10px 10px;
+  border-radius: 30px;
+  transition: all 200ms ease;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background: white;
+  color: #bd8353;
+  border: 1px solid #bd8353;
+}
+
+p {
+  color: #bd8353;
+  font-family: monospace;
+  font-size: 20px;
+  margin: 20px;
+  text-align: center;
+  font-family: monospace;
 }
