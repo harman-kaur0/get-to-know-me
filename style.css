@@ -1,5 +1,9 @@
 body {
-  background: rgb(241, 223, 210);
+  background: #f6f2fe;
+}
+#stop {
+  position: fixed;
+  width: 100%;
 }
 
 ul {
@@ -34,7 +38,7 @@ p {
   color: #bd8353;
   font-family: monospace;
   font-size: 20px;
-  margin: 20px;
+  margin: 20px 200px 20px 200px;
   text-align: center;
   font-family: monospace;
 }
